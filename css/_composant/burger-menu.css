@@ -1,0 +1,13 @@
+#burger--menu{
+    position: absolute;
+    left:310px;
+    top: 36px;
+    border: 2px var(--beige) solid;
+    padding : 8px;
+    cursor: pointer;
+    transition: background-color 0.5s, border 0.3s;
+
+    & rect{
+        fill: #fff;
+    }
+}

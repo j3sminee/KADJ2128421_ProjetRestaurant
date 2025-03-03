@@ -1,0 +1,9 @@
+.info--column{
+    display: grid;
+    grid-template-columns: 100%;
+
+    @media (min-width: 992px){
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Index</title>
+</head>
+
+<body>
+    <div class="interface">
+        <div id="header">
+            <!-- Bouton de l'ouverture du menu rétractable -->
+            <svg id='burger--menu' viewBox="0 0 100 80" width="40" height="40" onclick="openNav()">
+                <rect width="100" height="20"></rect>
+                <rect width="100" height="20" y="30"></rect>
+                <rect width="100" height="20" y="60"></rect>
+            </svg>
+
+            <nav id="nav--primary">
+
+                <a href="javascript:void(0)" id="btn--close" onclick="closeNav()">&times;</a>
+                <div id="liens--menu">
+                    <ul>
+                        <li class="nav--element"> <a href="index.html" onclick="redirection(event)">Accueil</a> </li>
+                        <li class="nav--element"> <a href="#" onclick="redirection(event)">Menu</a> </li>
+                        <li class="nav--element"> <a href="#" onclick="redirection(event)">Nos services</a> </li>
+                    </ul>
+                </div>
+
+                <div class="info--column">
+                    <div class="infolettre">
+                        <p>
+                            <span>Abonnez-vous</span>
+                            <span>à notre</span>
+                            <span>infolettre!</span>
+                        </p>
+                        <a href="#" class="bouton--infolettre">En savoir plus ></a>
+                    </div>
+
+                    <!-- Deuxième rangée bloc info sociale -->
+                    <div class="image--menu">
+                        <img src="assets/images/jpg/japan.jpg" alt="">
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <main>
+            <div class="image--header">
+                <img src="assets/images/png/header.png" alt="Image">
+            </div>
+            <div id="histoire--index">
+                <div id="rectangle--histoire">
+                    <h2>Notre histoire</h2>
+                </div>
+                <p>Originaire de Tokyo, le chef Hiroshi Takahashi a grandi en apprenant les techniques ancestrales
+                    de la cuisine japonaise auprès de chefs de renom. Il a approfondi ses études en travaillant dans
+                    des restaurants de sushis renommés au Japon. Cependant, toujours à la recherche de nouvelles
+                    connaissances, chef Hiroshi Takahashi s’est formé en France et au Québec avant d’ouvrir son
+                    propre restaurant pour fusionner ses influences asiatiques et occidentales. <br> <br> Chef
+                    Hiroshi Takahashi s’inspire grandement d’une philosophie japonaise; le respect du produit, du
+                    geste et des convives.
+                </p>
+                <img src="assets/images/png/fan1.png" alt="Fan rouge">
+            </div>
+
+
+            <div id="chefs--index">
+                <div class="rectangle--chefs">
+                    <h2>Nos chefs</h2>
+                </div>
+                <div class="image--papier">
+                    <img src="assets/images/png/papier.png" alt="">
+                </div>
+                <div class="images--trois--chefs">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+
+            <div class="notre--menu">
+                <div class="menu--border">
+                    <div class="rectangle--menu">
+                        <h2>Notre menu</h2>
+                    </div>
+                    <p>L’Izakaya Hiroshi réinvente l’art culinaire du sushi et des grillades japonaises. La vision du
+                        restaurant est d’offrir une expérience authentique et innovante où chaque assiette est une œuvre
+                        d’art. Tout est préparé de manière traditionnelle et innovante avec des ingrédients de haute
+                        qualité. L’inspiration principale est la beauté de la culture japonaise, tout en accentuant
+                        l’équilibre des saveurs, l’authenticité et le service impeccable.</p>
+                    <div class="bouton--primary">
+                        <a href="#">
+                            <p>Accéder au menu</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="reservations--index">
+                <div class="rectangle--reservations">
+                    <h2>Réservations</h2>
+                </div>
+                <div image--texte>
+                    <img src="" alt="">
+                    <p>Réservez votre table dès maintenant pour profiter d’une expérience culinaire inoubliable dans
+                        notre restaurant. Que ce soit pour un dîner en tête-à-tête, un repas en famille ou un événement
+                        spécial, nous vous accueillons avec plaisir. Vous pouvez réserver en ligne en quelques clics ou
+                        nous contacter par téléphone. Nous vous recommandons de réserver à l’avance, surtout les
+                        week-ends et jours fériés, afin de garantir votre place. Pour toute demande spécifique ou
+                        exigence alimentaire, n’hésitez pas à nous en informer lors de votre réservation. Nous avons
+                        hâte de vous recevoir et de vous faire découvrir notre cuisine raffinée!</p>
+                    <div class="bouton--secondary">
+                        <a href="#">
+                            <p>Réserver</p>
+                        </a>
+                        <a href="#">
+                            <p>Appeler</p>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

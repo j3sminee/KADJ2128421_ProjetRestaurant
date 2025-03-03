@@ -1,0 +1,23 @@
+.infolettre{
+    background-color: var(--beige);
+    padding: 50px;
+}
+
+.infolettre p {
+    font-family: 'Montserrat';
+    color: var(--grisFonce);
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bouton--infolettre{
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: var(--beige);
+    background-color: var(--grisFonce);
+    padding: 20px;
+    border-radius: 100px;
+
+}

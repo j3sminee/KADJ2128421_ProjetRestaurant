@@ -1,0 +1,38 @@
+#histoire--index{
+    background-color: var(--rougePale);
+    height: 750px;
+    border-radius: 0 0 300px 300px;
+}
+
+#rectangle--histoire{
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+    background-color: var(--rougePale);
+    width: 250px;
+}
+
+
+#rectangle--histoire h2{
+    font-family: 'Chillen';
+    text-transform: uppercase;
+    padding: 8px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+p{
+    position: relative;
+    bottom: 20px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    padding: 24px;
+    line-height: 1.6rem;
+    text-align: center;
+}
+
+#histoire--index img{
+    position: relative;
+    left: 5px;
+}

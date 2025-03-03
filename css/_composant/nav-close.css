@@ -1,0 +1,13 @@
+#btn--close{
+    position: absolute;
+    padding: 14px;
+    left: 20px;
+    top: -10px;
+    font-size: 4rem;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover{
+        color: #333;
+    } 
+}
