@@ -7,7 +7,6 @@
 
 /*[ importation du dossier _composant ]*/
 @import url('_composant/header.css');
-@import url('_composant/header-menu.css');
 @import url('_composant/menu.css');
 @import url('_composant/infolettre-menu.css');
 @import url('_composant/burger-menu.css');
@@ -15,6 +14,7 @@
 @import url('_composant/section-histoire.css');
 @import url('_composant/section-chefs.css');
 @import url('_composant/nav-primary.css');
+@import url('_composant/footer.css');
 
 /*[ importation du dossier _layout ]*/
 @import url('_layout/structure.css');

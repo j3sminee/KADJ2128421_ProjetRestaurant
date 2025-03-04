@@ -1,0 +1,100 @@
+footer{
+    background-color: var(--grisPale);
+}
+
+#footer{
+    background-color: var(--grisPale);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    @media (min-width: 992px)
+    {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+#logo--footer {
+    width: 300px;
+}
+
+@media (min-width: 992px) {
+    #logo--footer {
+        background-image: url('../../assets/images/svg/logo_principal.svg');
+        width: 250px;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        margin-left: 20px;
+    }
+
+    #logo--footer img {
+        display: none;
+    }
+}
+
+
+#contacts--footer{
+    grid-row: 2/3;
+    text-align: center;
+    padding: 10px;
+
+    @media (min-width: 992px){
+        grid-row: inherit; 
+        margin-bottom:150px; 
+    }
+}
+
+#contacts--footer h3{
+    font-family: 'Chillen';
+    font-size: 30px;
+
+    @media (min-width: 992px){
+        text-align: left;
+    }
+    
+}
+
+#contacts--footer p{
+    font-family: 'Montserrat';
+    padding: 5px;
+    margin: 10px;
+    line-height: 1.8rem;
+    background-color: var(--beige);
+    border-radius: 50px;
+
+    &:hover{
+        background-color: var(--rougeFonce);
+        color: var(--beige);
+    }
+}
+
+.a--propos{
+    padding: 10px;
+}
+
+.a--propos h3{
+    font-family: 'Chillen';
+    font-size: 30px;
+    text-align: left;
+}
+
+.a--propos p{
+    font-family: 'Montserrat';
+    text-align: left;
+}
+
+table{
+    grid-row: 3/4;
+    font-family: 'Montserrat';
+    text-align: left;
+    line-height: 1.8rem;
+    padding: 10px;
+    margin-top: 10px;
+
+    @media (min-width: 992px){
+        grid-row: inherit;  
+    }
+}

@@ -1,7 +1,18 @@
+#menuPanneau{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: var(--grisFonce);
+    padding: 20px;
+
+    @media (min-width: 992px){
+        height: fit-content;
+        height: 150px
+    }
+}
+
 #burger--menu{
-    position: absolute;
-    left:310px;
-    top: 36px;
     border: 2px var(--beige) solid;
     padding : 8px;
     cursor: pointer;
@@ -10,4 +21,21 @@
     & rect{
         fill: #fff;
     }
+
+    @media (min-width: 992px){
+        width: 100px;
+        height: 100px;
+        padding: 25px;
+        margin-right: 50px;
+    }
+}
+
+#logo--menu{
+    width: 100px;
+
+    @media (min-width: 992px){
+        width: 200px;
+        margin-left: 50px;
+    }
+    
 }

@@ -1,2 +1,22 @@
 /*[ COMPOSANT HEADER ]*/
 /* ------------------------------------------------------------ */
+
+header {
+    position: relative;
+    min-height: 680px;
+    height: 100vh;
+}
+
+/*[ Image de background du HEADER ]*/
+.image--header img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+}

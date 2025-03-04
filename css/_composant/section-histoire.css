@@ -4,12 +4,15 @@
     border-radius: 0 0 300px 300px;
 }
 
+.rectangle--et--titre{
+    display: flex;
+}
+
 #rectangle--histoire{
-    position: relative;
-    left: 70px;
-    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--rougePale);
-    width: 250px;
 }
 
 
@@ -22,7 +25,7 @@
 }
 
 
-p{
+#histoire--index p{
     position: relative;
     bottom: 20px;
     font-family: 'Montserrat';
