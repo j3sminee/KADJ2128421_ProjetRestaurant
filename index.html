@@ -10,13 +10,14 @@
 
 <body>
     <div class="interface">
-        <div id="header">
+        <div id="menuPanneau">
             <!-- Bouton de l'ouverture du menu rétractable -->
             <svg id='burger--menu' viewBox="0 0 100 80" width="40" height="40" onclick="openNav()">
                 <rect width="100" height="20"></rect>
                 <rect width="100" height="20" y="30"></rect>
                 <rect width="100" height="20" y="60"></rect>
             </svg>
+            <img id="logo--menu" src="assets/images/svg/logo_horizon_blanc.svg" alt="logo">
 
             <nav id="nav--primary">
 
@@ -48,12 +49,16 @@
         </div>
 
         <main>
-            <div class="image--header">
-                <img src="assets/images/png/header.png" alt="Image">
-            </div>
-            <div id="histoire--index">
-                <div id="rectangle--histoire">
-                    <h2>Notre histoire</h2>
+            <header>
+                <div class="image--header">
+                    <img src="assets/images/png/header.png" alt="Image">
+                </div>
+            </header>
+            <!-- <div id="histoire--index">
+                <div id="rectangle--et--titre">
+                    <div id="rectangle--histoire">
+                        <h2>Notre histoire</h2>
+                    </div>
                 </div>
                 <p>Originaire de Tokyo, le chef Hiroshi Takahashi a grandi en apprenant les techniques ancestrales
                     de la cuisine japonaise auprès de chefs de renom. Il a approfondi ses études en travaillant dans
@@ -125,9 +130,56 @@
 
                 </div>
 
-            </div>
+            </div> -->
         </main>
-
+        <footer>
+            <div id="footer">
+                <div id="logo--footer">
+                    <img src="assets/images/svg/logo_horizon_blanc.svg" alt="logo principal">
+                </div>
+                <div id="contacts--footer">
+                    <h3>Contactez-nous</h3>
+                    <div id="btns--contact">
+                        <p>(450) 308 2349</p>
+                        <p>Izakaya@support.com</p>
+                    </div>
+                </div>
+                <div class="a--propos">
+                    <h3>À propos</h3>
+                    <p>8903, Rue Saint-Joseph Ouest, <br>Saint-Donat, J9Z 9C2, Québec</p>
+                    <table>
+                        <tr>
+                            <td>Dimanche</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Lundi</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Mardi</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Mercredi</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Jeudi</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Vendredi</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Samedi</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </footer>
     </div>
     <script src="js/script.js"></script>
 </body>
