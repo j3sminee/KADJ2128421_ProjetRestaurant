@@ -13,27 +13,14 @@ footer{
     {
         grid-template-columns: repeat(3, 1fr);
     }
+
 }
 
 #logo--footer {
     width: 300px;
+    margin: 0 auto;
 }
 
-@media (min-width: 992px) {
-    #logo--footer {
-        background-image: url('../../assets/images/svg/logo_principal.svg');
-        width: 250px;
-        height: 250px;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: right;
-        margin-left: 20px;
-    }
-
-    #logo--footer img {
-        display: none;
-    }
-}
 
 
 #contacts--footer{
@@ -42,8 +29,7 @@ footer{
     padding: 10px;
 
     @media (min-width: 992px){
-        grid-row: inherit; 
-        margin-bottom:150px; 
+        grid-row: inherit;  
     }
 }
 
@@ -51,50 +37,110 @@ footer{
     font-family: 'Chillen';
     font-size: 30px;
 
-    @media (min-width: 992px){
-        text-align: left;
+    @media (min-width: 1420px){
+        font-size: 50px;
     }
+
     
+}
+
+#btns--contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 #contacts--footer p{
     font-family: 'Montserrat';
-    padding: 5px;
+    width: 250px;
+    padding: 20px;
     margin: 10px;
     line-height: 1.8rem;
     background-color: var(--beige);
     border-radius: 50px;
 
+
     &:hover{
         background-color: var(--rougeFonce);
         color: var(--beige);
     }
+
+    @media (min-width: 1420px){
+        width: 300px;
+        font-size: 18px;
+    }
+
+    @media (min-width: 1920px){
+        font-size: 20px;
+        width: 400px;
+    }
+
 }
 
 .a--propos{
     padding: 10px;
+    margin: 0 auto;
+
+    @media (min-width:992px){
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: baseline;
+    }
 }
 
 .a--propos h3{
     font-family: 'Chillen';
     font-size: 30px;
-    text-align: left;
+    text-align: center;
+
+    @media (min-width: 992px){
+        text-align: left;
+    }
+
+    @media (min-width: 1420px){
+        font-size: 50px;
+    }
 }
 
 .a--propos p{
     font-family: 'Montserrat';
-    text-align: left;
+    text-align: center;
+
+    @media (min-width:992px){
+        text-align: left;  
+    }
+
+    @media (min-width: 1420px){
+        font-size: 20px;
+    }
+
+    @media (min-width: 1920px){
+        font-size: 25px;
+    }
 }
 
 table{
     grid-row: 3/4;
+    width: 400px;
     font-family: 'Montserrat';
-    text-align: left;
+    text-align: center;
     line-height: 1.8rem;
     padding: 10px;
     margin-top: 10px;
 
     @media (min-width: 992px){
-        grid-row: inherit;  
+        grid-row: inherit; 
+        text-align: left; 
+    }
+
+    @media (min-width: 1420px){
+        font-size: 20px;
+        line-height: 2.5rem;
+    }
+
+    @media (min-width: 1920px){
+        font-size: 25px;
     }
 }

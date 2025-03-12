@@ -10,6 +10,11 @@
         height: fit-content;
         height: 150px
     }
+
+    @media (min-width: 1920px){
+        height: fit-content;
+        height: 200px
+    }
 }
 
 #burger--menu{
@@ -35,6 +40,11 @@
 
     @media (min-width: 992px){
         width: 200px;
+        margin-left: 50px;
+    }
+
+    @media (min-width: 1920px){
+        width: 300px;
         margin-left: 50px;
     }
     
