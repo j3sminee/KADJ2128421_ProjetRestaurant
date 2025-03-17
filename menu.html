@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="interface">
+        <div id="menuPanneau">
+            <!-- Bouton de l'ouverture du menu rétractable -->
+            <svg id='burger--menu' viewBox="0 0 100 80" width="40" height="40" onclick="openNav()">
+                <rect width="100" height="20"></rect>
+                <rect width="100" height="20" y="30"></rect>
+                <rect width="100" height="20" y="60"></rect>
+            </svg>
+            <img id="logo--menu" src="assets/images/svg/logo_horizon_blanc.svg" alt="logo">
+
+            <nav id="nav--primary">
+
+                <a href="javascript:void(0)" id="btn--close" onclick="closeNav()">&times;</a>
+                <div id="liens--menu">
+                    <ul>
+                        <li class="nav--element"> <a href="index.html" onclick="redirection(event)">Accueil</a> </li>
+                        <li class="nav--element"> <a href="menu.html" onclick="redirection(event)">Menu</a> </li>
+                        <li class="nav--element"> <a href="#" onclick="redirection(event)">Nos services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="info--column">
+                    <div class="infolettre">
+                        <p>
+                            <span>Abonnez-vous</span>
+                            <span>à notre</span>
+                            <span>infolettre!</span>
+                        </p>
+                        <a href="#" class="bouton--infolettre">En savoir plus ></a>
+                    </div>
+
+                    <!-- Deuxième rangée bloc info sociale -->
+                    <div class="image--menu">
+                        <div id="text--menu">
+                            <span>Venez nous</span>
+                            <span>visiter!</span>
+                            <p>Réserver</p>
+                        </div>
+                        <img src="assets/images/jpg/restaurant.jpg" alt="restaurant">
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <main id="main--menu">
+            <header>
+                <div class="image--header image--menu--header">
+                    <img src="assets/images/jpg/art.jpg" alt="art">
+                </div>
+            </header>
+
+            <div id="conteneur--menu">
+
+                <div class="titre--menu">
+                    <div class="nom--restaurant">
+                        <h1>Izakaya Hiroshi</h1>
+                    </div>
+                    <div class="menu--droit">
+                        <h1>Menu</h1>
+                    </div>
+                </div>
+                <div class="rectangle--background"></div>
+
+                <div id="conteneur--categories">
+                    <div class="categories--text">
+                    <p>Services</p>
+                    <div id="cercles"></div>
+                    <p>Entrées</p>
+                    <div id="cercles"></div>
+                    <p>Sushis et sashimis</p>
+                    <div id="cercles"></div>
+                    <p>Grillades</p>
+                    <div id="cercles"></div>
+                    <p>Végétarien</p>
+                    <div id="cercles"></div>
+                    <p>Desserts</p>
+                    <div id="cercles"></div>
+                    <p>Cave à vin</p>
+                </div>
+                </div>
+
+                <div id="services--entrees">
+                <div id="conteneur--services">
+                    <h1>Services</h1>
+                    <div class="services--liste">
+                        <div class="service--item">
+                            <h2 class="service--nom">Option 1</h2>
+                            <p class="description">Description</p>
+                        </div>
+                        <div class="service--item">
+                            <h2 class="service--nom">Option 1</h2>
+                            <p class="description">Description</p>
+                        </div>
+                        <div class="service--item">
+                            <h2 class="service--nom">Option 1</h2>
+                            <p class="description">Description</p>
+                        </div>
+                        <div class="service--item">
+                            <h2 class="service--nom">Option 1</h2>
+                            <p class="description">Description</p>
+                        </div>
+                        <div class="service--item">
+                            <h2 class="service--nom">Option 1</h2>
+                            <p class="description">Description</p>
+                        </div>
+                    </div>
+                    <div id="services--prix">
+                        <div>
+                            <p class="prix--service">$$</p>
+                        </div>
+                        <div>
+                            <p class="prix--service">$$</p>
+                        </div>
+                        <div>
+                            <p class="prix--service">$$</p>
+                        </div>
+                        <div>
+                            <p class="prix--service">$$</p>
+                        </div>
+                        <div>
+                            <p class="prix--service">$$</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="conteneur--entrees">
+                    <h1>Entrées</h1>
+                    <div class="entrees--liste">
+                        <div class="entrees--item">
+                            <h2 class="entrees--nom">Option 1</h2>
+                            <p class="description">Description</p>
+                        </div>
+                        <div class="entrees--item">
+                            <h2 class="entrees--nom">Option 1</h2>
+                            <p class="description">Description</p>
+                        </div>
+                        <div class="entrees--item">
+                            <h2 class="entrees--nom">Option 1</h2>
+                            <p class="description">Description</p>
+                        </div>
+                        <div class="entrees--item">
+                            <h2 class="entrees--nom">Option 1</h2>
+                            <p class="description">Description</p>
+                        </div>
+                        <div class="entrees--item">
+                            <h2 class="entrees--nom">Option 1</h2>
+                            <p class="description">Description</p>
+                        </div>
+                    </div>
+                    <div id="entrees--prix">
+                        <div>
+                            <p class="prix--entrees">$$</p>
+                        </div>
+                        <div>
+                            <p class="prix--entrees">$$</p>
+                        </div>
+                        <div>
+                            <p class="prix--entrees">$$</p>
+                        </div>
+                        <div>
+                            <p class="prix--entrees">$$</p>
+                        </div>
+                        <div>
+                            <p class="prix--entrees">$$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </main>
+
+
+
+        <div id="footer">
+            <div id="logo--footer">
+                <img src="assets/images/svg/logo_horizon_blanc.svg" alt="logo principal">
+            </div>
+            <div id="contacts--footer">
+                <h3>Contactez-nous</h3>
+                <div id="btns--contact">
+                    <p>(450) 308 2349</p>
+                    <p>Izakaya@support.com</p>
+                </div>
+            </div>
+            <div class="a--propos">
+                <h3>À propos</h3>
+                <p>8903, Rue Saint-Joseph Ouest, <br>Saint-Donat, J9Z 9C2, Québec</p>
+                <div id="tableau--heures">
+                    <table>
+                        <tr>
+                            <td>Dimanche</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Lundi</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Mardi</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Mercredi</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Jeudi</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Vendredi</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                        <tr>
+                            <td>Samedi</td>
+                            <td>12:00 à 23:00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
