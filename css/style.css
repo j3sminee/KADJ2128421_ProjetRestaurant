@@ -16,9 +16,11 @@
 @import url('_composant/nav-primary.css');
 @import url('_composant/footer.css');
 @import url('_composant/erreur.css');
+@import url('_composant/menu-manger.css');
 
 /*[ importation du dossier _layout ]*/
 @import url('_layout/structure.css');
 @import url('_layout/grille_generale.css');
+@import url('_layout/grille_menu.css');
 
 /* /////////////////////////////////////////////////////*/
