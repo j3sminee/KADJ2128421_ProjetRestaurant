@@ -1,0 +1,122 @@
+#services--entrees{
+    display: grid;
+    grid-template-columns: 1fr;
+    transition: 0.3s ease;
+
+    @media (min-width:992px){
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        bottom: 30px;
+    }
+}
+
+
+#conteneur--services{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    gap: 10px;
+    border: 5px solid var(--beige);
+    margin: 15px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+
+    @media (min-width:992px){
+        grid-column: 1/2;
+    }
+}
+
+#conteneur--services h1{
+    font-family: 'Chillen';
+    font-size: 2rem;
+    position: relative;
+    top: 90px;
+    height: 60px;
+    transform: rotate(-90deg);
+    color: var(--rougeFonce);
+}
+
+.service--item{
+    margin: 30px;
+}
+
+.service--nom{
+    font-family: 'Chillen';
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--beige);
+}
+
+.service--item .description{
+    font-family: 'Montserrat';
+    color: var(--grisPale);
+}
+
+#services--prix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+.prix--service{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--beige);
+}
+
+#conteneur--entrees{
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    gap: 10px;
+    border: 5px solid var(--beige);
+    margin: 15px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+
+    @media (min-width:992px){
+        grid-column: 2/3;
+    }
+}
+
+#conteneur--entrees h1{
+    font-family: 'Chillen';
+    font-size: 2rem;
+    position: relative;
+    top: 90px;
+    height: 60px;
+    transform: rotate(-90deg);
+    color: var(--rougeFonce);
+}
+
+.entrees--item{
+    margin: 30px;
+}
+
+.entrees--nom{
+    font-family: 'Chillen';
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--beige);
+}
+
+.entrees--item .description{
+    font-family: 'Montserrat';
+    color: var(--grisPale);
+}
+
+#entrees--prix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+.prix--entrees{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--beige);
+}

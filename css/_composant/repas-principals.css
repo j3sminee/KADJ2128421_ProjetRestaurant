@@ -1,0 +1,185 @@
+#conteneur--plats--principaux{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#conteneur--sushis{
+    position: relative;
+    bottom: 65px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    gap: 10px;
+    border: 5px solid var(--beige);
+    margin: 15px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+    padding-top: 120px;
+
+    @media (min-width:992px){
+        grid-column: 1/2;
+    }
+}
+
+#rectangle--titre--sushis{
+    position: relative;
+    top: 60px;
+    left: 20px;
+    background-color: var(--grisPale);
+    width: 350px;
+    padding: 10px 0 10px 10px;
+}
+
+#rectangle--titre h1{
+    font-family: 'Ethereal';
+    padding: 20px;
+}
+
+
+.sushis--item{
+    margin: 30px;
+}
+
+.sushis--nom{
+    font-family: 'Chillen';
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--beige);
+}
+
+.sushis--item .description{
+    font-family: 'Montserrat';
+    color: var(--grisPale);
+}
+
+#sushis--prix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+.prix--sushis{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--beige);
+}
+
+
+
+#conteneur--grillades{
+    position: relative;
+    bottom: 120px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    gap: 10px;
+    border: 5px solid var(--beige);
+    margin: 15px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+    padding-top: 120px;
+
+    @media (min-width:992px){
+        grid-column: 1/2;
+    }
+}
+
+#rectangle--titre--grillades{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background-color: var(--grisPale);
+    width: 350px;
+    padding: 10px 0 10px 10px;
+}
+
+.grillades--item{
+    margin: 30px;
+}
+
+.grillades--nom{
+    font-family: 'Chillen';
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--beige);
+}
+
+.grillades--item .description{
+    font-family: 'Montserrat';
+    color: var(--grisPale);
+}
+
+#grillades--prix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+.prix--grillades{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--beige);
+}
+
+
+
+#conteneur--vegetarien{
+    position: relative;
+    bottom: 170px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    gap: 10px;
+    border: 5px solid var(--beige);
+    margin: 15px;
+    margin-bottom: 20px;
+    transition: 0.3s ease;
+    padding-top: 120px;
+
+    @media (min-width:992px){
+        grid-column: 1/2;
+    }
+}
+
+#rectangle--titre--vegetarien{
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+    background-color: var(--grisPale);
+    width: 350px;
+    padding: 10px 0 10px 10px;
+}
+
+.vegetarien--item{
+    margin: 30px;
+}
+
+.vegetarien--nom{
+    font-family: 'Chillen';
+    font-size: 30px;
+    font-weight: 300;
+    color: var(--beige);
+}
+
+.vegetarien--item .description{
+    font-family: 'Montserrat';
+    color: var(--grisPale);
+}
+
+#vegetarien--prix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+
+.prix--vegetarien{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 300;
+    color: var(--beige);
+}
