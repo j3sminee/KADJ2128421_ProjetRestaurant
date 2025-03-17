@@ -5,6 +5,7 @@ footer{
 #footer{
     background-color: var(--grisPale);
     display: grid;
+    gap: 10px;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -17,8 +18,29 @@ footer{
 }
 
 #logo--footer {
-    width: 300px;
+    width: 200px;
     margin: 0 auto;
+    transition: 0.3s ease;
+
+    @media (min-width: 992px){
+        width: 210px;
+        margin: 10px;
+    }
+
+    @media (min-width:1200px){
+        position: relative;
+        left: 40px;
+        width: 250px;
+    }
+
+    @media (min-width:1400px){
+        left: 60px;
+        width: 300px;
+    }
+
+    @media (min-width:1600px){
+        width: 350px;
+    }
 }
 
 
@@ -26,16 +48,28 @@ footer{
 #contacts--footer{
     grid-row: 2/3;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    transition: 0.3s ease;
 
     @media (min-width: 992px){
-        grid-row: inherit;  
+        grid-row: inherit;
+        position: relative; 
+        bottom: 60px; 
+    }
+
+    @media (min-width: 1200px){
+        bottom: 65px;
+    }
+
+    @media (min-width: 1600px){
+        bottom: 105px;
     }
 }
 
 #contacts--footer h3{
     font-family: 'Chillen';
     font-size: 30px;
+    transition: 0.3s ease;
 
     @media (min-width: 1420px){
         font-size: 50px;
@@ -54,17 +88,20 @@ footer{
 #contacts--footer p{
     font-family: 'Montserrat';
     width: 250px;
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     line-height: 1.8rem;
     background-color: var(--beige);
     border-radius: 50px;
+    transition: 0.3s ease;
 
 
     &:hover{
         background-color: var(--rougeFonce);
         color: var(--beige);
+        cursor: pointer;
     }
+
 
     @media (min-width: 1420px){
         width: 300px;
@@ -81,6 +118,7 @@ footer{
 .a--propos{
     padding: 10px;
     margin: 0 auto;
+    transition: 0.3s ease;
 
     @media (min-width:992px){
         display: flex;
@@ -94,6 +132,7 @@ footer{
     font-family: 'Chillen';
     font-size: 30px;
     text-align: center;
+    transition: 0.3s ease;
 
     @media (min-width: 992px){
         text-align: left;
@@ -107,6 +146,7 @@ footer{
 .a--propos p{
     font-family: 'Montserrat';
     text-align: center;
+    transition: 0.3s ease;
 
     @media (min-width:992px){
         text-align: left;  
@@ -121,6 +161,8 @@ footer{
     }
 }
 
+
+
 table{
     grid-row: 3/4;
     width: 400px;
@@ -129,6 +171,7 @@ table{
     line-height: 1.8rem;
     padding: 10px;
     margin-top: 10px;
+    transition: 0.3s ease;
 
     @media (min-width: 992px){
         grid-row: inherit; 

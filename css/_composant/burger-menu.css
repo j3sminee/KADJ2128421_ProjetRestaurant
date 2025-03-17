@@ -37,6 +37,7 @@
 
 #logo--menu{
     width: 100px;
+    transition: 0.3s ease;
 
     @media (min-width: 992px){
         width: 200px;
