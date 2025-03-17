@@ -1,0 +1,29 @@
+#fils{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--grisPale);
+    margin-bottom: 10px;
+}
+
+#fils p{
+    position: relative;
+    left: 5px;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    text-transform: uppercase;
+    color: var(--beige);
+    padding: 5px;
+    margin: 10px;
+    transition: 0.3s ease;
+
+    @media (min-width:992px){
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 15px;
+        left: 10px;
+    }
+
+    @media (min-width: 1400px){
+        font-size: 25px;
+    }
+}

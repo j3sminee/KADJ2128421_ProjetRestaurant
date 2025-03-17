@@ -19,6 +19,7 @@
 @import url('_composant/menu-manger.css');
 @import url('_composant/services-entrees.css');
 @import url('_composant/repas-principals.css');
+@import url('_composant/fils-darianne.css');
 
 /*[ importation du dossier _layout ]*/
 @import url('_layout/structure.css');
