@@ -1,18 +1,60 @@
 #histoire--index{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     background-color: var(--rougePale);
-    height: 750px;
+    height: fit-content;
     border-radius: 0 0 300px 300px;
+    transition: 0.3s ease;
+
+    @media (min-width:992px){
+        border-radius: 0 0 500px 500px;
+    }
+
+    @media (min-width:1200px){
+        border-radius: 0 0 600px 600px;
+    }
+
+    @media (min-width:1400px){
+        border-radius: 0 0 700px 700px;
+    }
+
+    @media (min-width:1600px){
+        border-radius: 0 0 800px 800px;
+    }
+
+    @media (min-width:1900px){
+        border-radius: 0 0 900px 900px;
+    }
+
+    @media (min-width:2000px){
+        border-radius: 0 0 1000px 1000px;
+    }
 }
 
 .rectangle--et--titre{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #rectangle--histoire{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 300px;
+    position: relative;
+    bottom: 30px;
     background-color: var(--rougePale);
+    transition: 0.3s ease;
+
+    @media (min-width:992px){
+        width: 400px;
+        bottom: 30px;
+    }
+
+    @media (min-width:1400px){
+        width: 600px;
+    }
 }
 
 
@@ -22,6 +64,15 @@
     padding: 8px;
     font-size: 30px;
     text-align: center;
+    transition: 0.3s ease;
+
+    @media (min-width: 992px){
+        font-size: 40px;
+    }
+
+    @media (min-width:1400px){
+        font-size: 60px;
+    }
 }
 
 
@@ -33,9 +84,29 @@
     padding: 24px;
     line-height: 1.6rem;
     text-align: center;
+    transition: 0.3s ease;
+
+    @media (min-width:992px){
+        font-size: 25px;
+        padding: 50px;
+        line-height: 2rem;
+    }
+
+    @media (min-width:1400px){
+        font-size: 30px;
+        line-height: 3rem;
+        padding: 90px;
+    }
 }
 
 #histoire--index img{
+    width: 100%;
     position: relative;
-    left: 5px;
+    bottom: 30px;
+    left: 4px;
+    transition: 0.3s ease;
+
+    @media (min-width:1200px){
+        left: 8px;
+    }
 }
