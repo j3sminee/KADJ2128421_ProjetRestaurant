@@ -73,6 +73,7 @@
 }
 
 .image--fan--bois img{
+    width: fit-content;
     position: relative;
     top: 175px; 
     transition: 0.3s ease;

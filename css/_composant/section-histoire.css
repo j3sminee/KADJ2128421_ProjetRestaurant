@@ -61,6 +61,7 @@
 #rectangle--histoire h2{
     font-family: 'Chillen';
     text-transform: uppercase;
+    color: var(--beige);
     padding: 8px;
     font-size: 30px;
     text-align: center;
@@ -80,6 +81,7 @@
     position: relative;
     bottom: 20px;
     font-family: 'Montserrat';
+    color: var(--beige);
     font-size: 14px;
     padding: 24px;
     line-height: 1.6rem;
