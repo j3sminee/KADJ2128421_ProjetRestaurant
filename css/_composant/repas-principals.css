@@ -29,9 +29,12 @@
     padding: 10px 0 10px 10px;
 }
 
-#rectangle--titre h1{
+#rectangle--titre--sushis h1, 
+#rectangle--titre--grillades h1, 
+#rectangle--titre--vegetarien h1{
     font-family: 'Ethereal';
-    padding: 20px;
+    color: var(--rougeFonce);
+    font-size: 30px;
 }
 
 
